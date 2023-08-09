@@ -1,8 +1,4 @@
-# Discontinued
-
-**This project is no longer maintained**, and will not receive further updates. Community members interested in collaborating on a community-maintained fork can coordinate in [this issue](https://github.com/google/charts/issues/798).
-
----
+# Maintained
 
 Charts is a general charting library, currently enabled for the
 [Flutter mobile UI framework](https://flutter.io).
@@ -10,7 +6,7 @@ Charts is a general charting library, currently enabled for the
 See the [online gallery](https://google.github.io/charts/flutter/gallery.html) for supported chart
 types and examples of how to custom components of the chart.
 
-*Note*: This is not an official Google product.
+_Note_: This is not an official Google product.
 
 [![Travis CI Build Status](https://travis-ci.org/google/charts.svg?branch=master)](https://travis-ci.org/google/charts)
 
