@@ -4,7 +4,7 @@ description: A common library for charting packages.
 homepage: https://github.com/OttomanDeveloper/google_charts
 
 environment:
-  sdk: ">=2.18.0 <=4.0.0"
+  sdk: ">=2.18.0 <4.0.0"
 
 dependencies:
   collection: ^1.17.0
