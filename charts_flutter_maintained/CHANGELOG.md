@@ -1,3 +1,7 @@
+# 0.12.2
+
+- Updated README File.
+
 # 0.12.1
 
 - Dart 3 Support.

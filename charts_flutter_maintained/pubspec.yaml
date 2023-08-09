@@ -1,5 +1,5 @@
 name: charts_flutter_maintained
-version: 0.12.1
+version: 0.12.2
 description: Material Design charting library for flutter.
 homepage: https://github.com/OttomanDeveloper/google_charts
 
@@ -12,7 +12,7 @@ dependencies:
   #
   # The pub version of charts_flutter will point to the pub version of charts_common.
   # The latest pub version is commented out and shown below as an example.
-  charts_common_maintained: ^0.12.1
+  charts_common_maintained: ^0.12.2
   # charts_common_maintained:
   #   git:
   #     url: https://github.com/OttomanDeveloper/google_charts.git
