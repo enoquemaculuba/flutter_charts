@@ -18,7 +18,7 @@ import 'dart:math' show Rectangle, min, max;
 import 'package:collection/collection.dart' show IterableExtension;
 import 'package:meta/meta.dart' show protected, visibleForTesting;
 
-import '../../../../common.dart';
+import '../../../../charts_common.dart';
 import '../../../common/graphics_factory.dart' show GraphicsFactory;
 import '../../../common/text_element.dart' show TextElement;
 import '../../../data/series.dart' show AttributeKey;
