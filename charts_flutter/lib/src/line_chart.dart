@@ -15,7 +15,8 @@
 
 import 'dart:collection' show LinkedHashMap;
 
-import 'package:charts_common_maintained/common.dart' as common
+import 'package:charts_common_maintained/charts_common_maintained.dart'
+    as common
     show
         AxisSpec,
         LineChart,

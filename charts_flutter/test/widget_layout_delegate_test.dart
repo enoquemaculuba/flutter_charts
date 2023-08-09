@@ -17,8 +17,8 @@ import 'dart:math' show Rectangle;
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:charts_common_maintained/common.dart' as common
-    show BehaviorPosition, InsideJustification, OutsideJustification;
+import 'package:charts_common_maintained/charts_common_maintained.dart'
+    as common show BehaviorPosition, InsideJustification, OutsideJustification;
 import 'package:charts_flutter_maintained/src/behaviors/chart_behavior.dart';
 import 'package:charts_flutter_maintained/src/widget_layout_delegate.dart';
 

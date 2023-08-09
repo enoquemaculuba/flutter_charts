@@ -16,7 +16,8 @@
 import 'dart:ui' as ui show Shader;
 import 'dart:math' show Point, Rectangle;
 import 'package:flutter/material.dart';
-import 'package:charts_common_maintained/common.dart' as common show Color;
+import 'package:charts_common_maintained/charts_common_maintained.dart'
+    as common show Color;
 
 /// Draws a simple line.
 ///

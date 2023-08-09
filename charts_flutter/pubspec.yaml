@@ -5,7 +5,6 @@ homepage: https://github.com/OttomanDeveloper/google_charts
 
 environment:
   sdk: ">=2.18.0 <=4.0.0"
-#  flutter: '>=2.5.0'
 
 dependencies:
   # Pointing this to a local path allows for pointing to the latest code
@@ -13,11 +12,11 @@ dependencies:
   #
   # The pub version of charts_flutter will point to the pub version of charts_common.
   # The latest pub version is commented out and shown below as an example.
-  charts_common:
+  charts_common_maintained:
     git:
       url: https://github.com/OttomanDeveloper/google_charts.git
       ref: master
-      path: charts_common
+      path: charts_common_maintained
   collection: ^1.17.0
   flutter:
     sdk: flutter

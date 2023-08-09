@@ -15,7 +15,8 @@
 
 import 'dart:math' show cos, pi, sin, Point;
 import 'package:flutter/material.dart';
-import 'package:charts_common_maintained/common.dart' as common show Color;
+import 'package:charts_common_maintained/charts_common_maintained.dart'
+    as common show Color;
 
 /// Draws a sector of a circle, with an optional hole in the center.
 class CircleSectorPainter {

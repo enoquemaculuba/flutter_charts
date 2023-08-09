@@ -14,8 +14,8 @@
 // limitations under the License.
 
 import 'dart:math' show Rectangle;
-import 'package:charts_common_maintained/common.dart' as common
-    show ChartCanvas, Color, FillPatternType, SymbolRenderer;
+import 'package:charts_common_maintained/charts_common_maintained.dart'
+    as common show ChartCanvas, Color, FillPatternType, SymbolRenderer;
 import 'package:flutter/widgets.dart';
 import 'chart_canvas.dart' show ChartCanvas;
 import 'graphics_factory.dart' show GraphicsFactory;

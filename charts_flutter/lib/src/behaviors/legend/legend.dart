@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:charts_common_maintained/common.dart'
+import 'package:charts_common_maintained/charts_common_maintained.dart'
     show LegendEntry, LegendTapHandling;
 
 abstract class TappableLegend<T, D> {

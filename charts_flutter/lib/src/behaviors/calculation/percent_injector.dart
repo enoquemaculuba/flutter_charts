@@ -13,8 +13,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:charts_common_maintained/common.dart' as common
-    show ChartBehavior, PercentInjector, PercentInjectorTotalType;
+import 'package:charts_common_maintained/charts_common_maintained.dart'
+    as common show ChartBehavior, PercentInjector, PercentInjectorTotalType;
 import 'package:meta/meta.dart' show immutable;
 
 import '../chart_behavior.dart' show ChartBehavior, GestureType;

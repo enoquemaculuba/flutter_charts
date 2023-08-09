@@ -14,7 +14,8 @@
 // limitations under the License.
 
 import 'package:collection/collection.dart' show ListEquality;
-import 'package:charts_common_maintained/common.dart' as common
+import 'package:charts_common_maintained/charts_common_maintained.dart'
+    as common
     show
         ChartBehavior,
         LinePointHighlighter,

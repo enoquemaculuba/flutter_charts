@@ -13,7 +13,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:charts_common_maintained/common.dart' as common
+import 'package:charts_common_maintained/charts_common_maintained.dart'
+    as common
     show
         A11yNode,
         AxisDirection,
