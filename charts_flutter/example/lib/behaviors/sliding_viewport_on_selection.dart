@@ -18,7 +18,7 @@
 // EXCLUDE_FROM_GALLERY_DOCS_START
 import 'dart:math';
 // EXCLUDE_FROM_GALLERY_DOCS_END
-import 'package:charts_flutter/flutter.dart' as charts;
+import 'package:charts_flutter_maintained/charts_flutter.dart' as charts;
 import 'package:flutter/material.dart';
 
 class SlidingViewportOnSelection extends StatelessWidget {
@@ -97,7 +97,7 @@ class SlidingViewportOnSelection extends StatelessWidget {
       // Set an initial viewport to demonstrate the sliding viewport behavior on
       // initial chart load.
       domainAxis: new charts.OrdinalAxisSpec(
-          viewport: new charts.OrdinalViewport('2018',"", 4)),
+          viewport: new charts.OrdinalViewport('2018', "", 4)),
     );
   }
 
