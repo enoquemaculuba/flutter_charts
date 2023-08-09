@@ -14,7 +14,7 @@
 // limitations under the License.
 
 import 'dart:ui' show FontWeight, TextAlign, TextDirection;
-import 'package:charts_common/common.dart' as common
+import 'package:charts_common_maintained/common.dart' as common
     show
         MaxWidthStrategy,
         TextElement,

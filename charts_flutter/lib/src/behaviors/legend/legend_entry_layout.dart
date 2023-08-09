@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:charts_common/common.dart' as common;
+import 'package:charts_common_maintained/common.dart' as common;
 import 'package:charts_flutter_maintained/src/util/color.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter/material.dart'
