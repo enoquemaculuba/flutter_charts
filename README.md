@@ -18,7 +18,7 @@ A common library for charting packages.
 
 ## charts_flutter
 
-[![charts_flutter pub package](https://img.shields.io/pub/v/charts_flutter.svg)](https://pub.dartlang.org/packages/charts_flutter)
+[![charts_flutter pub package](https://img.shields.io/pub/v/charts_flutter.svg)](https://pub.dev/packages/charts_flutter_maintained)
 
 A charting package for [Flutter](https://flutter.io), supporting both Android
 and iOS.
