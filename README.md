@@ -12,7 +12,7 @@ _Note_: This is not an official Google product.
 
 ## charts_common
 
-[![charts_common pub package](https://img.shields.io/pub/v/charts_common.svg)](https://pub.dartlang.org/packages/charts_common)
+[![charts_common pub package](https://img.shields.io/pub/v/charts_common.svg)](https://pub.dev/packages/charts_common_maintained)
 
 A common library for charting packages.
 
