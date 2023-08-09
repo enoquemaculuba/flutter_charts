@@ -7,4 +7,5 @@ Common componnets for charting libraries.
 ## Development
 
 This project is developed internally at Google and published for external
-consumption, external contributions unfortunately cannot be taken at this time.
+consumption.
+Feel free to pitch in and contribute to this package! We welcome anyone who's interested.

@@ -7,6 +7,7 @@ See the [online gallery](https://google.github.io/charts/flutter/gallery.html) f
 types and examples of how to custom components of the chart.
 
 _Note_: This is not an official Google product.
+Feel free to pitch in and contribute to this package! We welcome anyone who's interested.
 
 [![Travis CI Build Status](https://travis-ci.org/google/charts.svg?branch=master)](https://travis-ci.org/google/charts)
 
