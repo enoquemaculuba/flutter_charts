@@ -1,5 +1,3 @@
-// @dart=2.9
-
 // Copyright 2018 the Charts project authors. Please see the AUTHORS file
 // for details.
 //
@@ -62,19 +60,19 @@ class FakeGraphicsFactory extends GraphicsFactory {
 /// Stores [TextStyle] properties for test to verify.
 class FakeTextStyle implements TextStyle {
   @override
-  Color color;
+  Color? color;
 
   @override
-  int fontSize;
+  String? fontFamily;
 
   @override
-  String fontFamily;
+  int? fontSize;
 
   @override
-  double lineHeight;
+  String? fontWeight;
 
   @override
-  String fontWeight;
+  double? lineHeight;
 }
 
 /// Fake [TextElement] which returns text length as [horizontalSliceWidth].
@@ -82,21 +80,18 @@ class FakeTextStyle implements TextStyle {
 /// Font size is returned for [verticalSliceWidth] and [baseline].
 class FakeTextElement implements TextElement {
   @override
-  final String text;
+  TextStyle? textStyle;
 
   @override
-  TextStyle textStyle;
+  int? maxWidth;
 
   @override
-  int maxWidth;
-
-  @override
-  MaxWidthStrategy maxWidthStrategy;
+  MaxWidthStrategy? maxWidthStrategy;
 
   @override
   TextDirection textDirection;
 
-  double opacity;
+  double? opacity;
 
   FakeTextElement(this.text);
 
@@ -105,6 +100,9 @@ class FakeTextElement implements TextElement {
       horizontalSliceWidth: text.length.toDouble(),
       verticalSliceWidth: textStyle.fontSize.toDouble(),
       baseline: textStyle.fontSize.toDouble());
+
+  @override
+  final String text;
 }
 
 class MockLinePaint extends Mock implements LineStyle {}
@@ -124,8 +122,13 @@ class FakeBarRendererElement implements ImmutableBarRendererElement<String> {
   @override
   int index;
 
-  FakeBarRendererElement(this.datum, this.bounds, this.labelAccessor, this.data,
-      {this.measureFn}) {
+  FakeBarRendererElement(
+    this.datum,
+    this.bounds,
+    this.labelAccessor,
+    this.data, {
+    this.measureFn,
+  }) {
     index = data.indexOf(datum);
     when(_series.labelAccessorFn).thenReturn(labelAccessor);
     when(_series.measureFn).thenReturn(measureFn ?? (_) => 1.0);

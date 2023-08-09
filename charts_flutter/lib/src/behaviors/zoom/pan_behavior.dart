@@ -72,13 +72,13 @@ class FlutterPanBehavior<D> = common.PanBehavior<D>
 /// thereof.
 mixin FlutterPanBehaviorMixin<D> on common.PanBehavior<D>
     implements ChartStateBehavior {
-  late BaseChartState _chartState;
+  late BaseChartState? _chartState;
 
-  set chartState(BaseChartState chartState) {
+  set chartState(BaseChartState? chartState) {
     assert(chartState != null);
 
     _chartState = chartState;
-    _flingAnimator = chartState.getAnimationController(this);
+    _flingAnimator = chartState?.getAnimationController(this);
     _flingAnimator?.addListener(_onFlingTick);
   }
 
@@ -97,7 +97,7 @@ mixin FlutterPanBehaviorMixin<D> on common.PanBehavior<D>
   @override
   removeFrom(common.BaseChart<D> chart) {
     stopFlingAnimation();
-    _chartState.disposeAnimationController(this);
+    _chartState?.disposeAnimationController(this);
     _flingAnimator = null;
     super.removeFrom(chart);
   }

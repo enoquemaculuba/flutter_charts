@@ -52,7 +52,7 @@ import 'legend_entry_generator.dart';
 /// Flutter, using widgets).
 abstract class Legend<D> implements ChartBehavior<D>, LayoutView {
   final SelectionModelType selectionModelType;
-  final legendState = LegendState<D>();
+  final LegendState<D> legendState = LegendState<D>();
   final LegendEntryGenerator<D> legendEntryGenerator;
 
   /// The title text to display before legend entries.

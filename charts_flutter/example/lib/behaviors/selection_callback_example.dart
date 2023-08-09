@@ -185,7 +185,7 @@ class _SelectionCallbackState extends State<SelectionCallbackExample> {
           child: new Text(_time.toString())));
     }
     _measures.forEach((String series, num value) {
-      children.add(new Text('${series}: ${value}'));
+      children.add(new Text('$series: $value'));
     });
 
     return new Column(children: children);
