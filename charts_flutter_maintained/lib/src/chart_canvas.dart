@@ -72,24 +72,27 @@ class ChartCanvas implements common.ChartCanvas {
   }
 
   @override
-  void drawLine(
-      {required List<Point> points,
-      Rectangle<num>? clipBounds,
-      common.Color? fill,
-      common.Color? stroke,
-      bool? roundEndCaps,
-      double? strokeWidthPx,
-      List<int>? dashPattern}) {
+  void drawLine({
+    required List<Point> points,
+    Rectangle<num>? clipBounds,
+    common.Color? fill,
+    common.Color? stroke,
+    bool? roundEndCaps,
+    double? strokeWidthPx,
+    List<int>? dashPattern,
+    bool? smoothLine,
+  }) {
     LinePainter.draw(
-        canvas: canvas,
-        paint: _paint,
-        points: points,
-        clipBounds: clipBounds,
-        fill: fill,
-        stroke: stroke,
-        roundEndCaps: roundEndCaps,
-        strokeWidthPx: strokeWidthPx,
-        dashPattern: dashPattern);
+      canvas: canvas,
+      paint: _paint,
+      points: points,
+      clipBounds: clipBounds,
+      fill: fill,
+      stroke: stroke,
+      roundEndCaps: roundEndCaps,
+      strokeWidthPx: strokeWidthPx,
+      dashPattern: dashPattern,
+    );
   }
 
   @override
@@ -106,13 +109,14 @@ class ChartCanvas implements common.ChartCanvas {
       double? strokeWidthPx,
       common.BlendMode? blendMode}) {
     PointPainter.draw(
-        canvas: canvas,
-        paint: _paint,
-        point: point,
-        radius: radius,
-        fill: fill,
-        stroke: stroke,
-        strokeWidthPx: strokeWidthPx);
+      canvas: canvas,
+      paint: _paint,
+      point: point,
+      radius: radius,
+      fill: fill,
+      stroke: stroke,
+      strokeWidthPx: strokeWidthPx,
+    );
   }
 
   @override
@@ -121,7 +125,8 @@ class ChartCanvas implements common.ChartCanvas {
       Rectangle<num>? clipBounds,
       common.Color? fill,
       common.Color? stroke,
-      double? strokeWidthPx}) {
+      double? strokeWidthPx,
+      bool? smoothLine = false}) {
     PolygonPainter.draw(
         canvas: canvas,
         paint: _paint,
@@ -129,7 +134,8 @@ class ChartCanvas implements common.ChartCanvas {
         clipBounds: clipBounds,
         fill: fill,
         stroke: stroke,
-        strokeWidthPx: strokeWidthPx);
+        strokeWidthPx: strokeWidthPx,
+        smoothLine: smoothLine);
   }
 
   /// Creates a bottom to top gradient that transitions [fill] to transparent.

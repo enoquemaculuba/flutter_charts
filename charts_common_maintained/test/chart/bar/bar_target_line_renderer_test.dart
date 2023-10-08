@@ -43,14 +43,16 @@ class MockCanvas extends Mock implements ChartCanvas {
   final drawLinePointsList = <List<Point>>[];
 
   @override
-  void drawLine(
-      {List<Point> points,
-      Rectangle<num> clipBounds,
-      Color fill,
-      Color stroke,
-      bool roundEndCaps,
-      double strokeWidthPx,
-      List<int> dashPattern}) {
+  void drawLine({
+    List<Point> points,
+    Rectangle<num> clipBounds,
+    Color fill,
+    Color stroke,
+    bool roundEndCaps,
+    double strokeWidthPx,
+    List<int> dashPattern,
+    bool smoothLine,
+  }) {
     drawLinePointsList.add(points);
   }
 }

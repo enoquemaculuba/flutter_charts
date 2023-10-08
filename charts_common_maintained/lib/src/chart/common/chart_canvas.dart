@@ -62,14 +62,16 @@ abstract class ChartCanvas {
   /// to stroke-dasharray in SVG path elements. An odd number of values in the
   /// pattern will be repeated to derive an even number of values. "1,2,3" is
   /// equivalent to "1,2,3,1,2,3."
-  void drawLine(
-      {required List<Point> points,
-      Rectangle<num>? clipBounds,
-      Color? fill,
-      Color? stroke,
-      bool? roundEndCaps,
-      double? strokeWidthPx,
-      List<int>? dashPattern});
+  void drawLine({
+    required List<Point> points,
+    Rectangle<num>? clipBounds,
+    Color? fill,
+    Color? stroke,
+    bool? roundEndCaps,
+    double? strokeWidthPx,
+    List<int>? dashPattern,
+    bool? smoothLine,
+  });
 
   /// Renders a pie, with an optional hole in the center.
   void drawPie(CanvasPie canvasPie);
@@ -110,7 +112,8 @@ abstract class ChartCanvas {
       Rectangle<num>? clipBounds,
       Color? fill,
       Color? stroke,
-      double? strokeWidthPx});
+      double? strokeWidthPx,
+      bool? smoothLine});
 
   /// Renders a simple rectangle.
   ///
