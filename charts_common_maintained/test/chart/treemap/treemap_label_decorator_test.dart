@@ -14,26 +14,24 @@
 // limitations under the License.
 
 import 'dart:math' show pi, Rectangle;
-import 'package:charts_common_maintained/src/chart/common/chart_canvas.dart'
+import 'package:charts_common_custom/src/chart/common/chart_canvas.dart'
     show ChartCanvas;
-import 'package:charts_common_maintained/src/chart/common/processed_series.dart'
+import 'package:charts_common_custom/src/chart/common/processed_series.dart'
     show ImmutableSeries;
-import 'package:charts_common_maintained/src/chart/treemap/treemap_label_decorator.dart'
+import 'package:charts_common_custom/src/chart/treemap/treemap_label_decorator.dart'
     show TreeMapLabelDecorator;
-import 'package:charts_common_maintained/src/chart/treemap/treemap_renderer_element.dart'
+import 'package:charts_common_custom/src/chart/treemap/treemap_renderer_element.dart'
     show TreeMapRendererElement;
-import 'package:charts_common_maintained/src/common/color.dart' show Color;
-import 'package:charts_common_maintained/src/common/graphics_factory.dart'
+import 'package:charts_common_custom/src/common/color.dart' show Color;
+import 'package:charts_common_custom/src/common/graphics_factory.dart'
     show GraphicsFactory;
-import 'package:charts_common_maintained/src/common/line_style.dart'
-    show LineStyle;
-import 'package:charts_common_maintained/src/common/text_element.dart'
+import 'package:charts_common_custom/src/common/line_style.dart' show LineStyle;
+import 'package:charts_common_custom/src/common/text_element.dart'
     show TextDirection, TextElement, MaxWidthStrategy;
-import 'package:charts_common_maintained/src/common/text_measurement.dart'
+import 'package:charts_common_custom/src/common/text_measurement.dart'
     show TextMeasurement;
-import 'package:charts_common_maintained/src/common/text_style.dart'
-    show TextStyle;
-import 'package:charts_common_maintained/src/data/series.dart' show AccessorFn;
+import 'package:charts_common_custom/src/common/text_style.dart' show TextStyle;
+import 'package:charts_common_custom/src/data/series.dart' show AccessorFn;
 
 import 'package:meta/meta.dart' show required;
 import 'package:mockito/mockito.dart';

@@ -18,7 +18,7 @@ import 'dart:math' show Rectangle, min, max;
 import 'package:collection/collection.dart' show IterableExtension;
 import 'package:meta/meta.dart' show protected, visibleForTesting;
 
-import '../../../../charts_common_maintained.dart';
+import '../../../../charts_common_custom.dart';
 import '../../../common/graphics_factory.dart' show GraphicsFactory;
 import '../../../common/text_element.dart' show TextElement;
 import '../../../data/series.dart' show AttributeKey;
@@ -657,7 +657,8 @@ class OrdinalViewport {
   bool operator ==(Object other) {
     return other is OrdinalViewport &&
         startingDomain == other.startingDomain &&
-        dataSize == other.dataSize && endDomain == other.endDomain;
+        dataSize == other.dataSize &&
+        endDomain == other.endDomain;
   }
 
   @override

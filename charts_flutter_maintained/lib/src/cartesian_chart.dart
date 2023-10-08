@@ -16,8 +16,7 @@
 import 'dart:collection' show LinkedHashMap;
 import 'package:meta/meta.dart' show immutable, protected;
 
-import 'package:charts_common_maintained/charts_common_maintained.dart'
-    as common
+import 'package:charts_common_custom/charts_common_custom.dart' as common
     show
         AxisSpec,
         BaseChart,

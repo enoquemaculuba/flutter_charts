@@ -13,18 +13,18 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:charts_common_maintained/src/chart/cartesian/axis/axis.dart';
-import 'package:charts_common_maintained/src/chart/common/base_chart.dart';
-import 'package:charts_common_maintained/src/chart/common/processed_series.dart';
-import 'package:charts_common_maintained/src/chart/common/series_datum.dart';
-import 'package:charts_common_maintained/src/chart/common/series_renderer.dart';
-import 'package:charts_common_maintained/src/chart/common/behavior/legend/legend_entry_generator.dart';
-import 'package:charts_common_maintained/src/chart/common/behavior/legend/series_legend.dart';
-import 'package:charts_common_maintained/src/chart/common/datum_details.dart';
-import 'package:charts_common_maintained/src/chart/common/selection_model/selection_model.dart';
-import 'package:charts_common_maintained/src/chart/line/line_renderer.dart';
-import 'package:charts_common_maintained/src/common/color.dart';
-import 'package:charts_common_maintained/src/data/series.dart';
+import 'package:charts_common_custom/src/chart/cartesian/axis/axis.dart';
+import 'package:charts_common_custom/src/chart/common/base_chart.dart';
+import 'package:charts_common_custom/src/chart/common/processed_series.dart';
+import 'package:charts_common_custom/src/chart/common/series_datum.dart';
+import 'package:charts_common_custom/src/chart/common/series_renderer.dart';
+import 'package:charts_common_custom/src/chart/common/behavior/legend/legend_entry_generator.dart';
+import 'package:charts_common_custom/src/chart/common/behavior/legend/series_legend.dart';
+import 'package:charts_common_custom/src/chart/common/datum_details.dart';
+import 'package:charts_common_custom/src/chart/common/selection_model/selection_model.dart';
+import 'package:charts_common_custom/src/chart/line/line_renderer.dart';
+import 'package:charts_common_custom/src/common/color.dart';
+import 'package:charts_common_custom/src/data/series.dart';
 import 'package:test/test.dart';
 
 class ConcreteChart extends BaseChart<String> {

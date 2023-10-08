@@ -13,8 +13,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:charts_common_maintained/charts_common_maintained.dart';
-import 'package:charts_common_maintained/src/data/graph.dart' as graph_structure
+import 'package:charts_common_custom/charts_common_custom.dart';
+import 'package:charts_common_custom/src/data/graph.dart' as graph_structure
     show indexNotRelevant, Link, Node;
 import 'package:test/test.dart';
 

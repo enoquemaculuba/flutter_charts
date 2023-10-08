@@ -18,8 +18,7 @@
 import 'dart:math';
 // EXCLUDE_FROM_GALLERY_DOCS_END
 import 'package:flutter/material.dart';
-import 'package:charts_flutter_maintained/charts_flutter_maintained.dart'
-    as charts;
+import 'package:charts_flutter_custom/charts_flutter_custom.dart' as charts;
 
 /// Example of using a custom primary measure axis replacing the default
 /// gridline rendering with a short tick rendering. It also turns on the axis

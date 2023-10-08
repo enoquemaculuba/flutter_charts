@@ -1,4 +1,4 @@
-name: charts_flutter_maintained
+name: charts_flutter_custom
 version: 0.12.2
 description: Material Design charting library for flutter.
 homepage: https://github.com/enoquemaculuba/flutter_charts.git
@@ -13,12 +13,12 @@ dependencies:
   #
   # The pub version of charts_flutter will point to the pub version of charts_common.
   # The latest pub version is commented out and shown below as an example.
-  #charts_common_maintained: ^0.12.2
-  charts_common_maintained:
+  #charts_common_custom: ^0.12.2
+  charts_common_custom:
      git:
        url: https://github.com/enoquemaculuba/flutter_charts.git
        ref: master
-       path: charts_common_maintained
+       path: charts_common_custom
   collection: ^1.17.0
   flutter:
     sdk: flutter

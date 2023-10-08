@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:charts_common_maintained/src/common/date_time_factory.dart';
+import 'package:charts_common_custom/src/common/date_time_factory.dart';
 import 'package:intl/intl.dart' show DateFormat;
 
 /// Returns DateTime for testing.

@@ -15,16 +15,16 @@
 
 import 'dart:math';
 
-import 'package:charts_common_maintained/src/chart/cartesian/cartesian_chart.dart';
-import 'package:charts_common_maintained/src/chart/cartesian/axis/axis.dart';
-import 'package:charts_common_maintained/src/chart/common/base_chart.dart';
-import 'package:charts_common_maintained/src/chart/common/datum_details.dart';
-import 'package:charts_common_maintained/src/chart/common/processed_series.dart';
-import 'package:charts_common_maintained/src/chart/common/behavior/slider/slider.dart';
-import 'package:charts_common_maintained/src/chart/common/behavior/selection/selection_trigger.dart';
-import 'package:charts_common_maintained/src/common/gesture_listener.dart';
-import 'package:charts_common_maintained/src/common/math.dart';
-import 'package:charts_common_maintained/src/data/series.dart';
+import 'package:charts_common_custom/src/chart/cartesian/cartesian_chart.dart';
+import 'package:charts_common_custom/src/chart/cartesian/axis/axis.dart';
+import 'package:charts_common_custom/src/chart/common/base_chart.dart';
+import 'package:charts_common_custom/src/chart/common/datum_details.dart';
+import 'package:charts_common_custom/src/chart/common/processed_series.dart';
+import 'package:charts_common_custom/src/chart/common/behavior/slider/slider.dart';
+import 'package:charts_common_custom/src/chart/common/behavior/selection/selection_trigger.dart';
+import 'package:charts_common_custom/src/common/gesture_listener.dart';
+import 'package:charts_common_custom/src/common/math.dart';
+import 'package:charts_common_custom/src/data/series.dart';
 
 import 'package:mockito/mockito.dart';
 import 'package:test/test.dart';

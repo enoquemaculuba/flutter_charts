@@ -14,17 +14,17 @@
 // limitations under the License.
 
 import 'dart:math';
-import 'package:charts_common_maintained/src/chart/cartesian/axis/draw_strategy/base_tick_draw_strategy.dart';
-import 'package:charts_common_maintained/src/chart/cartesian/axis/axis.dart';
-import 'package:charts_common_maintained/src/chart/cartesian/axis/spec/axis_spec.dart';
-import 'package:charts_common_maintained/src/chart/cartesian/axis/tick.dart';
-import 'package:charts_common_maintained/src/chart/common/chart_canvas.dart';
-import 'package:charts_common_maintained/src/chart/common/chart_context.dart';
-import 'package:charts_common_maintained/src/common/graphics_factory.dart';
-import 'package:charts_common_maintained/src/common/line_style.dart';
-import 'package:charts_common_maintained/src/common/text_element.dart';
-import 'package:charts_common_maintained/src/common/text_measurement.dart';
-import 'package:charts_common_maintained/src/common/text_style.dart';
+import 'package:charts_common_custom/src/chart/cartesian/axis/draw_strategy/base_tick_draw_strategy.dart';
+import 'package:charts_common_custom/src/chart/cartesian/axis/axis.dart';
+import 'package:charts_common_custom/src/chart/cartesian/axis/spec/axis_spec.dart';
+import 'package:charts_common_custom/src/chart/cartesian/axis/tick.dart';
+import 'package:charts_common_custom/src/chart/common/chart_canvas.dart';
+import 'package:charts_common_custom/src/chart/common/chart_context.dart';
+import 'package:charts_common_custom/src/common/graphics_factory.dart';
+import 'package:charts_common_custom/src/common/line_style.dart';
+import 'package:charts_common_custom/src/common/text_element.dart';
+import 'package:charts_common_custom/src/common/text_measurement.dart';
+import 'package:charts_common_custom/src/common/text_style.dart';
 import 'package:meta/meta.dart' show required;
 import 'package:mockito/mockito.dart';
 import 'package:test/test.dart';

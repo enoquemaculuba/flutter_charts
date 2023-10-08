@@ -1,4 +1,4 @@
-name: charts_common_maintained
+name: charts_common_custom
 version: 0.12.1
 description: A common library for charting packages.
 homepage: https://github.com/enoquemaculuba/flutter_charts.git

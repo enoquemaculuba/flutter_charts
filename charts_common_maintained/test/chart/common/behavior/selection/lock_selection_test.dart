@@ -15,10 +15,10 @@
 
 import 'dart:math';
 
-import 'package:charts_common_maintained/src/chart/common/base_chart.dart';
-import 'package:charts_common_maintained/src/chart/common/behavior/selection/lock_selection.dart';
-import 'package:charts_common_maintained/src/chart/common/selection_model/selection_model.dart';
-import 'package:charts_common_maintained/src/common/gesture_listener.dart';
+import 'package:charts_common_custom/src/chart/common/base_chart.dart';
+import 'package:charts_common_custom/src/chart/common/behavior/selection/lock_selection.dart';
+import 'package:charts_common_custom/src/chart/common/selection_model/selection_model.dart';
+import 'package:charts_common_custom/src/common/gesture_listener.dart';
 
 import 'package:mockito/mockito.dart';
 import 'package:test/test.dart';

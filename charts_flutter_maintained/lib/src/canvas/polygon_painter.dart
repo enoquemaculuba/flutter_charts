@@ -14,10 +14,10 @@
 // limitations under the License.
 
 import 'dart:math' show Point, Rectangle;
-import 'package:charts_flutter_maintained/src/util/motonex.dart';
+import 'package:charts_flutter_custom/src/util/motonex.dart';
 import 'package:flutter/material.dart';
-import 'package:charts_common_maintained/charts_common_maintained.dart'
-    as common show Color;
+import 'package:charts_common_custom/charts_common_custom.dart' as common
+    show Color;
 
 /// Draws a simple line.
 ///

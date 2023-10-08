@@ -15,18 +15,18 @@
 
 import 'dart:math' show Rectangle;
 
-import 'package:charts_common_maintained/src/chart/cartesian/axis/axis.dart';
-import 'package:charts_common_maintained/src/chart/cartesian/axis/collision_report.dart';
-import 'package:charts_common_maintained/src/chart/cartesian/axis/draw_strategy/tick_draw_strategy.dart';
-import 'package:charts_common_maintained/src/chart/cartesian/axis/numeric_tick_provider.dart';
-import 'package:charts_common_maintained/src/chart/cartesian/axis/tick.dart';
-import 'package:charts_common_maintained/src/chart/common/base_chart.dart';
-import 'package:charts_common_maintained/src/chart/common/chart_context.dart';
-import 'package:charts_common_maintained/src/chart/common/behavior/range_annotation.dart';
-import 'package:charts_common_maintained/src/chart/line/line_chart.dart';
-import 'package:charts_common_maintained/src/common/graphics_factory.dart';
-import 'package:charts_common_maintained/src/common/material_palette.dart';
-import 'package:charts_common_maintained/src/data/series.dart';
+import 'package:charts_common_custom/src/chart/cartesian/axis/axis.dart';
+import 'package:charts_common_custom/src/chart/cartesian/axis/collision_report.dart';
+import 'package:charts_common_custom/src/chart/cartesian/axis/draw_strategy/tick_draw_strategy.dart';
+import 'package:charts_common_custom/src/chart/cartesian/axis/numeric_tick_provider.dart';
+import 'package:charts_common_custom/src/chart/cartesian/axis/tick.dart';
+import 'package:charts_common_custom/src/chart/common/base_chart.dart';
+import 'package:charts_common_custom/src/chart/common/chart_context.dart';
+import 'package:charts_common_custom/src/chart/common/behavior/range_annotation.dart';
+import 'package:charts_common_custom/src/chart/line/line_chart.dart';
+import 'package:charts_common_custom/src/common/graphics_factory.dart';
+import 'package:charts_common_custom/src/common/material_palette.dart';
+import 'package:charts_common_custom/src/data/series.dart';
 import 'package:mockito/mockito.dart';
 import 'package:test/test.dart';
 

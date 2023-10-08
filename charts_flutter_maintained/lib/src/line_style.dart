@@ -13,8 +13,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:charts_common_maintained/charts_common_maintained.dart'
-    as common show Color, LineStyle;
+import 'package:charts_common_custom/charts_common_custom.dart' as common
+    show Color, LineStyle;
 
 class LineStyle implements common.LineStyle {
   @override

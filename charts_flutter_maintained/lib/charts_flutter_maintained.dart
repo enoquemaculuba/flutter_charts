@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-export 'package:charts_common_maintained/charts_common_maintained.dart'
+export 'package:charts_common_custom/charts_common_custom.dart'
     show
         boundsLineRadiusPxFnKey,
         boundsLineRadiusPxKey,

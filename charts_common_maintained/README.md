@@ -1,6 +1,6 @@
 # Common Charting library
 
-[![pub package](https://img.shields.io/pub/v/charts_common.svg)](https://pub.dev/packages/charts_common_maintained)
+[![pub package](https://img.shields.io/pub/v/charts_common.svg)](https://pub.dev/packages/charts_common_custom)
 
 Common componnets for charting libraries.
 

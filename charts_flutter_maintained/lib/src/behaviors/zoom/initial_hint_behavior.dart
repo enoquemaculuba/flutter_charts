@@ -15,8 +15,8 @@
 
 import 'package:flutter/widgets.dart' show AnimationController;
 
-import 'package:charts_common_maintained/charts_common_maintained.dart'
-    as common show BaseChart, ChartBehavior, InitialHintBehavior;
+import 'package:charts_common_custom/charts_common_custom.dart' as common
+    show BaseChart, ChartBehavior, InitialHintBehavior;
 import 'package:meta/meta.dart' show immutable;
 
 import '../../base_chart_state.dart' show BaseChartState;

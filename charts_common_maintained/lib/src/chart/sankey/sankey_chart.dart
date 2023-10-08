@@ -13,13 +13,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:charts_common_maintained/src/chart/common/base_chart.dart';
-import 'package:charts_common_maintained/src/chart/common/datum_details.dart';
-import 'package:charts_common_maintained/src/chart/common/selection_model/selection_model.dart';
-import 'package:charts_common_maintained/src/chart/common/series_renderer.dart';
-import 'package:charts_common_maintained/src/chart/layout/layout_config.dart';
+import 'package:charts_common_custom/src/chart/common/base_chart.dart';
+import 'package:charts_common_custom/src/chart/common/datum_details.dart';
+import 'package:charts_common_custom/src/chart/common/selection_model/selection_model.dart';
+import 'package:charts_common_custom/src/chart/common/series_renderer.dart';
+import 'package:charts_common_custom/src/chart/layout/layout_config.dart';
 
-import 'package:charts_common_maintained/src/chart/sankey/sankey_renderer.dart';
+import 'package:charts_common_custom/src/chart/sankey/sankey_renderer.dart';
 
 class SankeyChart<D> extends BaseChart<D> {
   SankeyChart({LayoutConfig? layoutConfig})

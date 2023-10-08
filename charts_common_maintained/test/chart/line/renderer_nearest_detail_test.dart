@@ -15,14 +15,14 @@
 
 import 'dart:math';
 
-import 'package:charts_common_maintained/src/chart/cartesian/axis/axis.dart';
-import 'package:charts_common_maintained/src/chart/cartesian/cartesian_chart.dart';
-import 'package:charts_common_maintained/src/chart/common/chart_canvas.dart';
-import 'package:charts_common_maintained/src/chart/common/processed_series.dart';
-import 'package:charts_common_maintained/src/chart/line/line_renderer.dart';
-import 'package:charts_common_maintained/src/chart/line/line_renderer_config.dart';
-import 'package:charts_common_maintained/src/common/color.dart';
-import 'package:charts_common_maintained/src/data/series.dart';
+import 'package:charts_common_custom/src/chart/cartesian/axis/axis.dart';
+import 'package:charts_common_custom/src/chart/cartesian/cartesian_chart.dart';
+import 'package:charts_common_custom/src/chart/common/chart_canvas.dart';
+import 'package:charts_common_custom/src/chart/common/processed_series.dart';
+import 'package:charts_common_custom/src/chart/line/line_renderer.dart';
+import 'package:charts_common_custom/src/chart/line/line_renderer_config.dart';
+import 'package:charts_common_custom/src/common/color.dart';
+import 'package:charts_common_custom/src/data/series.dart';
 
 import 'package:mockito/mockito.dart';
 import 'package:test/test.dart';

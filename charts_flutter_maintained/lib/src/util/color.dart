@@ -13,8 +13,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:charts_common_maintained/charts_common_maintained.dart'
-    as common show Color;
+import 'package:charts_common_custom/charts_common_custom.dart' as common
+    show Color;
 import 'dart:ui' as ui;
 
 class ColorUtil {

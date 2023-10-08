@@ -15,7 +15,7 @@
 
 import 'dart:math' show min, max;
 
-import 'package:charts_common_maintained/src/common/math.dart';
+import 'package:charts_common_custom/src/common/math.dart';
 
 import 'ordinal_scale.dart' show OrdinalScale;
 import 'ordinal_scale_domain_info.dart' show OrdinalScaleDomainInfo;

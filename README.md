@@ -13,13 +13,13 @@ Feel free to pitch in and contribute to this package! We welcome anyone who's in
 
 ## charts_common
 
-[![charts_common pub package](https://img.shields.io/pub/v/charts_common.svg)](https://pub.dev/packages/charts_common_maintained)
+[![charts_common pub package](https://img.shields.io/pub/v/charts_common.svg)](https://pub.dev/packages/charts_common_custom)
 
 A common library for charting packages.
 
 ## charts_flutter
 
-[![charts_flutter pub package](https://img.shields.io/pub/v/charts_flutter.svg)](https://pub.dev/packages/charts_flutter_maintained)
+[![charts_flutter pub package](https://img.shields.io/pub/v/charts_flutter.svg)](https://pub.dev/packages/charts_flutter_custom)
 
 A charting package for [Flutter](https://flutter.io), supporting both Android
 and iOS.

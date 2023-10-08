@@ -15,10 +15,10 @@
 
 import 'dart:collection';
 
-import 'package:charts_common_maintained/src/chart/cartesian/axis/spec/axis_spec.dart';
-import 'package:charts_common_maintained/src/chart/common/chart_canvas.dart';
-import 'package:charts_common_maintained/src/common/color.dart';
-import 'package:charts_common_maintained/src/common/typed_registry.dart';
+import 'package:charts_common_custom/src/chart/cartesian/axis/spec/axis_spec.dart';
+import 'package:charts_common_custom/src/chart/common/chart_canvas.dart';
+import 'package:charts_common_custom/src/common/color.dart';
+import 'package:charts_common_custom/src/common/typed_registry.dart';
 import 'package:meta/meta.dart';
 
 import 'series.dart' show AttributeKey, Series, TypedAccessorFn;

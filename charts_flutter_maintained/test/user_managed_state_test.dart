@@ -16,7 +16,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:charts_flutter_maintained/charts_flutter_maintained.dart' as charts;
+import 'package:charts_flutter_custom/charts_flutter_custom.dart' as charts;
 
 void main() {
   testWidgets('selection can be set programmatically',

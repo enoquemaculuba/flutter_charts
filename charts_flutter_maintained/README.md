@@ -1,6 +1,6 @@
 # Flutter Charting library
 
-[![pub package](https://img.shields.io/pub/v/charts_flutter.svg)](https://pub.dev/packages/charts_flutter_maintained)
+[![pub package](https://img.shields.io/pub/v/charts_flutter.svg)](https://pub.dev/packages/charts_flutter_custom)
 
 Material Design data visualization library written natively in Dart.
 

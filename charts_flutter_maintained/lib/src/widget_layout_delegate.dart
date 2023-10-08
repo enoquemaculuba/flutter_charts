@@ -16,8 +16,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
-import 'package:charts_common_maintained/charts_common_maintained.dart'
-    as common show BehaviorPosition, InsideJustification, OutsideJustification;
+import 'package:charts_common_custom/charts_common_custom.dart' as common
+    show BehaviorPosition, InsideJustification, OutsideJustification;
 
 import 'behaviors/chart_behavior.dart' show BuildableBehavior;
 

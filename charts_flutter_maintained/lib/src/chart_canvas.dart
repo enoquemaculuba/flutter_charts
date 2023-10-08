@@ -15,8 +15,7 @@
 
 import 'dart:ui' as ui show Gradient, Shader;
 import 'dart:math' show Point, Rectangle, max;
-import 'package:charts_common_maintained/charts_common_maintained.dart'
-    as common
+import 'package:charts_common_custom/charts_common_custom.dart' as common
     show
         BlendMode,
         ChartCanvas,

@@ -13,8 +13,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:charts_common_maintained/charts_common_maintained.dart'
-    as common show ArcRendererConfig, PieChart, RTLSpec, Series;
+import 'package:charts_common_custom/charts_common_custom.dart' as common
+    show ArcRendererConfig, PieChart, RTLSpec, Series;
 import 'behaviors/chart_behavior.dart' show ChartBehavior;
 import 'base_chart.dart' show BaseChart, LayoutConfig;
 import 'base_chart_state.dart' show BaseChartState;

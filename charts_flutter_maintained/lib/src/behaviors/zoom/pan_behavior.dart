@@ -18,8 +18,7 @@ import 'dart:ui' show lerpDouble;
 
 import 'package:flutter/widgets.dart' show AnimationController;
 
-import 'package:charts_common_maintained/charts_common_maintained.dart'
-    as common
+import 'package:charts_common_custom/charts_common_custom.dart' as common
     show BaseChart, ChartBehavior, PanBehavior, PanningCompletedCallback;
 import 'package:meta/meta.dart' show immutable;
 

@@ -13,10 +13,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:charts_common_maintained/src/chart/cartesian/axis/scale.dart';
-import 'package:charts_common_maintained/src/chart/cartesian/axis/simple_ordinal_scale.dart';
-import 'package:charts_common_maintained/src/common/style/material_style.dart';
-import 'package:charts_common_maintained/src/common/style/style_factory.dart';
+import 'package:charts_common_custom/src/chart/cartesian/axis/scale.dart';
+import 'package:charts_common_custom/src/chart/cartesian/axis/simple_ordinal_scale.dart';
+import 'package:charts_common_custom/src/common/style/material_style.dart';
+import 'package:charts_common_custom/src/common/style/style_factory.dart';
 
 import 'package:test/test.dart';
 

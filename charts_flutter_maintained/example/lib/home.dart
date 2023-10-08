@@ -13,8 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:charts_flutter_maintained/charts_flutter_maintained.dart'
-    as charts;
+import 'package:charts_flutter_custom/charts_flutter_custom.dart' as charts;
 import 'package:flutter/material.dart';
 import 'dart:developer';
 import 'app_config.dart';

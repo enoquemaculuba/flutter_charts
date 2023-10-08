@@ -13,11 +13,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:charts_common_maintained/src/chart/common/series_renderer_config.dart';
-import 'package:charts_common_maintained/src/chart/layout/layout_view.dart';
-import 'package:charts_common_maintained/src/common/color.dart';
-import 'package:charts_common_maintained/src/common/style/style_factory.dart';
-import 'package:charts_common_maintained/src/common/symbol_renderer.dart';
+import 'package:charts_common_custom/src/chart/common/series_renderer_config.dart';
+import 'package:charts_common_custom/src/chart/layout/layout_view.dart';
+import 'package:charts_common_custom/src/common/color.dart';
+import 'package:charts_common_custom/src/common/style/style_factory.dart';
+import 'package:charts_common_custom/src/common/symbol_renderer.dart';
 
 import 'base_treemap_renderer.dart';
 import 'dice_treemap_renderer.dart';

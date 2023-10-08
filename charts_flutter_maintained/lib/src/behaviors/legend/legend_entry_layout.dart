@@ -13,9 +13,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:charts_common_maintained/charts_common_maintained.dart'
-    as common;
-import 'package:charts_flutter_maintained/src/util/color.dart';
+import 'package:charts_common_custom/charts_common_custom.dart' as common;
+import 'package:charts_flutter_custom/src/util/color.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter/material.dart'
     show GestureDetector, GestureTapUpCallback, TapUpDetails, Theme;

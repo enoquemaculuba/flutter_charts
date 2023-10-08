@@ -13,20 +13,20 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:charts_common_maintained/src/chart/bar/bar_renderer.dart';
-import 'package:charts_common_maintained/src/chart/bar/bar_renderer_config.dart';
-import 'package:charts_common_maintained/src/chart/bar/base_bar_renderer.dart';
-import 'package:charts_common_maintained/src/chart/bar/base_bar_renderer_config.dart';
-import 'package:charts_common_maintained/src/chart/cartesian/cartesian_chart.dart';
-import 'package:charts_common_maintained/src/chart/cartesian/axis/axis.dart';
-import 'package:charts_common_maintained/src/chart/common/chart_canvas.dart';
-import 'package:charts_common_maintained/src/chart/common/chart_context.dart';
-import 'package:charts_common_maintained/src/chart/common/processed_series.dart'
+import 'package:charts_common_custom/src/chart/bar/bar_renderer.dart';
+import 'package:charts_common_custom/src/chart/bar/bar_renderer_config.dart';
+import 'package:charts_common_custom/src/chart/bar/base_bar_renderer.dart';
+import 'package:charts_common_custom/src/chart/bar/base_bar_renderer_config.dart';
+import 'package:charts_common_custom/src/chart/cartesian/cartesian_chart.dart';
+import 'package:charts_common_custom/src/chart/cartesian/axis/axis.dart';
+import 'package:charts_common_custom/src/chart/common/chart_canvas.dart';
+import 'package:charts_common_custom/src/chart/common/chart_context.dart';
+import 'package:charts_common_custom/src/chart/common/processed_series.dart'
     show MutableSeries;
-import 'package:charts_common_maintained/src/common/material_palette.dart'
+import 'package:charts_common_custom/src/common/material_palette.dart'
     show MaterialPalette;
-import 'package:charts_common_maintained/src/common/color.dart';
-import 'package:charts_common_maintained/src/data/series.dart' show Series;
+import 'package:charts_common_custom/src/common/color.dart';
+import 'package:charts_common_custom/src/data/series.dart' show Series;
 
 import 'package:meta/meta.dart' show required;
 import 'package:mockito/mockito.dart';

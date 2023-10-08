@@ -13,8 +13,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:charts_common_maintained/src/chart/cartesian/axis/time/time_tick_formatter.dart';
-import 'package:charts_common_maintained/src/chart/cartesian/axis/time/date_time_tick_formatter.dart';
+import 'package:charts_common_custom/src/chart/cartesian/axis/time/time_tick_formatter.dart';
+import 'package:charts_common_custom/src/chart/cartesian/axis/time/date_time_tick_formatter.dart';
 import 'package:test/test.dart';
 
 const EPSILON = 0.001;

@@ -12,4 +12,4 @@ build/
 
 .vscode/
 
-charts_flutter_maintained/example/ios/Flutter/flutter_export_environment.sh
+charts_flutter_custom/example/ios/Flutter/flutter_export_environment.sh
